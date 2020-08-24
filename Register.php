@@ -4,16 +4,17 @@
 class Register
 {
     public $name;
-    public   $id, $session, $dept, $phoneNo, $homeTown, $Bday, $image, $email, $password;
+    public   $id, $session, $department, $bgroup, $phoneNo, $homeTown, $birthday, $image, $email, $password;
 
-    public function __construct($name, $id, $session, $dept, $phoneNo, $homeTown, $Bday, $image, $email, $password){
+    public function __construct($name, $id, $session, $department, $bgroup, $phoneNo, $homeTown, $birthday, $image, $email, $password){
         $this->name = $name;
         $this->id = $id;
         $this->session = $session;
-        $this->dept = $dept;
+        $this->department = $department;
+        $this->bgroup = $bgroup;
         $this->phoneNo = $phoneNo;
         $this->homeTown = $homeTown;
-        $this->Bday= $Bday;
+        $this->birthday= $birthday;
         $this->image = $image;
         $this->email= $email;
         $this->password = $password;
