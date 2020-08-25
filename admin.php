@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -43,6 +45,66 @@
         </div>
     </div>
 </nav>
+
+<?php
+
+$server = "127.0.0.1";
+$dbname = "studentInfo";
+$user = "rakib";
+$pass = "rakibul";
+//$DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+
+try {
+    $DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+} catch (Throwable $t){
+    echo 'Cannot Connect to Database';
+    die;
+}
+
+
+?>
+
+<div class="container">
+    <form>
+        <table class="table table-bordered">
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Session</th>
+                <th>Department</th>
+                <th>Blood Group</th>
+                <th>Phone No</th>
+                <th>Home Town</th>
+                <th>Email</th>
+                <th>Action</th>
+
+            </tr>
+            <?php
+            $query = 'select * from register';
+            $sth = $DBCon->prepare($query);
+            $sth->execute();
+            $data = $DBCon->query($query)->fetchAll(PDO::FETCH_ASSOC);
+            ?>
+
+            <?php foreach ($data as $value): ?>
+            <tr>
+                <td><?php echo $value['Name'] ?></td>
+                <td><?php echo $value['id'] ?></td>
+                <td><?php echo $value['Session'] ?></td>
+                <td><?php echo $value['Department'] ?></td>
+                <td><?php echo $value['bloodgroup'] ?></td>
+                <td><?php echo $value['PhoneNo'] ?></td>
+                <td><?php echo $value['HomeTown'] ?></td>
+                <td><?php echo $value['Email'] ?></td>
+                <td><?php echo $value['btn'] ?></td>
+            </tr>
+
+            <?php endforeach; ?>
+
+        </table>
+    </form>
+</div>
 
 
 <!-- Footer -->

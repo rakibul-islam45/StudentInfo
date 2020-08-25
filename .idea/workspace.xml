@@ -22,12 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="File added.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+    <list default="true" id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="File updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registerForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/registerForm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -109,6 +108,7 @@
       <workItem from="1598258131699" duration="10270000" />
       <workItem from="1598317572088" duration="4278000" />
       <workItem from="1598345029836" duration="8969000" />
+      <workItem from="1598372313919" duration="13238000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1598261003387</created>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598342400659</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="File updated.">
+      <created>1598372390297</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598372390297</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +190,8 @@
     <MESSAGE value="Action updated" />
     <MESSAGE value="updated" />
     <MESSAGE value="File added." />
-    <option name="LAST_COMMIT_MESSAGE" value="File added." />
+    <MESSAGE value="File updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="File updated." />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="58" width="824" height="691" key="#CLI_Interpreters" timestamp="1598038130791">
@@ -218,10 +226,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="270" y="33" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1598356616085" />
-    <state x="394" y="199" width="568" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598207159982">
+    <state x="394" y="199" width="593" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598382321309">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="394" y="199" width="568" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1598207159982" />
+    <state x="394" y="199" width="593" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1598382321309" />
     <state x="362" y="222" width="632" height="358" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1597947467739">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -278,22 +286,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="425" y="117" width="505" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1598261326629" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598341914018">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598382660854">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598341914018" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598382660854" />
     <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog" timestamp="1598340146453">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1598340146453" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1598356199597">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1598386818910">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1598356199597" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598342537403">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1598386818910" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598372398680">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598342537403" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598372398680" />
     <state x="512" y="304" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1597945612901">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

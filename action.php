@@ -1,8 +1,8 @@
 <?php
+    //require_once "database.php";
 
 
 
-   include_once './Register.php';
 
 
 
@@ -23,25 +23,27 @@
   $image = $_REQUEST['image'];
   $email = $_REQUEST['email'];
   $password = $_REQUEST['password'];
-
+    include_once './Register.php';
    $register = new Register($name, $id, $session, $department, $bloodgroup, $phoneNo, $homeTown, $birthday, $image, $email, $password);
 
-  $server = "127.0.0.1";
-  $dbname = "studentInfo";
-  $user = "rakib";
-  $pass = "rakibul";
- //$DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $server = "127.0.0.1";
+    $dbname = "studentInfo";
+    $user = "rakib";
+    $pass = "rakibul";
+    $DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
 
 try {
     $DBCon = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
-
+    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 } catch (Throwable $t){
     echo 'Cannot Connect to Database';
     die;
 }
 
-    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
-   // var_dump($DBCon->query("SELECT VERSION()"));
+
+
+
+// var_dump($DBCon->query("SELECT VERSION()"));
    $query = "insert into register(name, id, session, department, bloodgroup, phoneNo, homeTown, birthday, image, email, password)  values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     $statement = $DBCon->prepare($query);

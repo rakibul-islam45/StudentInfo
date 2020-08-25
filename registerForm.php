@@ -4,7 +4,7 @@
     //$nregister = new Register();
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <title>Registration Form</title>
     <style>
@@ -111,9 +111,9 @@
             </div>
             <div class="col-75">
                 <select id="department" name="department" onchange="department()">
-                    <option value="cse">CSE</option>
-                    <option value="ict">ICT</option>
-                    <option value="te">TE</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ICT">ICT</option>
+                    <option value="TE">TE</option>
                 </select>
             </div>
         </div>
@@ -122,7 +122,7 @@
                 <label for="bloodgroup">Blood Group</label>
             </div>
             <div class="col-75">
-                <select id="bgroup" name="bloodgroup" onchange="bloodgroup()">
+                <select id="bloodgroup" name="bloodgroup" onchange="bloodgroup()">
                     <option value="A+">A+</option>
                     <option value="A-">A-</option>
                     <option value="B+">B+</option>
