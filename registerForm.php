@@ -1,5 +1,8 @@
 
-
+<?php
+    include_once './Register.php';
+    //$nregister = new Register();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
