@@ -44,13 +44,13 @@
     </div>
 </nav>
 <?php
-class login{
-    public $name, $id;
-    public function __construct($name, $id){
-        $this->name = $name;
-        $this->id = $id;
-    }
-}
+//class login{
+//    public $name, $id;
+//    public function __construct($name, $id){
+//        $this->name = $name;
+//        $this->id = $id;
+//    }
+//}
 
 ?>
 <div class="login">

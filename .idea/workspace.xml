@@ -3,13 +3,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="Registration form added">
-      <change afterPath="$PROJECT_DIR$/registerForm.php" afterDir="false" />
+    <list default="true" id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="updated">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index" beforeDir="false" afterPath="$PROJECT_DIR$/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login" beforeDir="false" afterPath="$PROJECT_DIR$/login" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +105,7 @@
       <workItem from="1598210707964" duration="2591000" />
       <workItem from="1598249970682" duration="491000" />
       <workItem from="1598258131699" duration="10270000" />
+      <workItem from="1598317572088" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1598261003387</created>
@@ -104,27 +121,61 @@
       <option name="project" value="LOCAL" />
       <updated>1598262074669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Action updated">
+      <created>1598341091594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341091594</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Action updated">
+      <created>1598341736553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341736553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated">
+      <created>1598341784136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341784136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated" />
     <MESSAGE value="Register added" />
     <MESSAGE value="Registration form added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration form added" />
+    <MESSAGE value="Action updated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="58" width="824" height="691" key="#CLI_Interpreters" timestamp="1598038130791">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="261" y="58" width="824" height="691" key="#CLI_Interpreters/0.27.1366.741@0.27.1366.741" timestamp="1598038130791" />
-    <state x="273" y="62" width="800" height="684" key="#Deployment" timestamp="1598039424957">
+    <state x="273" y="62" width="800" height="684" key="#Deployment" timestamp="1598318018948">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="273" y="62" width="800" height="684" key="#Deployment/0.27.1366.741@0.27.1366.741" timestamp="1598039424957" />
+    <state x="273" y="62" width="800" height="684" key="#Deployment/0.27.1366.741@0.27.1366.741" timestamp="1598318018948" />
     <state x="276" y="59" width="804" height="684" key="#Options" timestamp="1598034996880">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -157,10 +208,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="127" width="1166" height="541" key="DirDiffDialog/0.27.1366.741@0.27.1366.741" timestamp="1598035018205" />
-    <state x="456" y="162" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598258592905">
+    <state x="456" y="162" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598317921298">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="456" y="162" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1598258592905" />
+    <state x="456" y="162" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1598317921298" />
     <state x="530" y="297" width="306" height="207" key="Github.ShareDialog" timestamp="1598258942910">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -205,18 +256,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="425" y="117" width="505" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1598261326629" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598262562271">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598341914018">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598262562271" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598341914018" />
+    <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog" timestamp="1598340146453">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1598340146453" />
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1598258594796">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1598258594796" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598262085316">
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598341803049">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598262085316" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598341803049" />
     <state x="512" y="304" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1597945612901">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -229,6 +284,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="534" y="138" width="287" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1366.741@0.27.1366.741" timestamp="1598039521847" />
+    <state x="100" y="127" width="1166" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598341761197">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1598341761197" />
     <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598259050245">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -245,5 +304,15 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1597948397725" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/search.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
