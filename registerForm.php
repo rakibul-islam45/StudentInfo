@@ -110,7 +110,7 @@
                 <label for="department">Department</label>
             </div>
             <div class="col-75">
-                <select id="department" name="department">
+                <select id="department" name="department" onchange="department()">
                     <option value="cse">CSE</option>
                     <option value="ict">ICT</option>
                     <option value="te">TE</option>
@@ -119,10 +119,10 @@
         </div>
         <div class="row">
             <div class="col-25">
-                <label for="bgroup">Blood Group</label>
+                <label for="bloodgroup">Blood Group</label>
             </div>
             <div class="col-75">
-                <select id="bgroup" name="bgroup">
+                <select id="bgroup" name="bloodgroup" onchange="bloodgroup()">
                     <option value="A+">A+</option>
                     <option value="A-">A-</option>
                     <option value="B+">B+</option>

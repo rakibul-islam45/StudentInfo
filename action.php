@@ -6,47 +6,50 @@
 
 
 
-  //if(strtoupper($_SERVER['REQUEST_METHOD'])  != 'P0ST' ) {
+//  if(strtoupper($_SERVER['REQUEST_METHOD'])  != 'P0ST' ) {
 //      throw new Exception('Not a post method');
 //  }
-// var_dump($_SERVER['REQUEST_METHOD']);
-    $_SERVER['REQUEST_METHOD'];
+ //var_dump($_SERVER['REQUEST_METHOD']);
+   $_SERVER['REQUEST_METHOD'];
 
-  $name = $_POST['name'];
-  $id = $_POST['id'];
-  $session = $_POST['session'];
-  $department = $_POST['department'];
-  $bgroup = $_POST['bgroup'];
-  $phoneNo = $_POST['phoneNo'];
-  $homeTown = $_POST['homeTown'];
-  $birthday = $_POST['birthday'];
-  $image = $_POST['image'];
-  $email = $_POST['email'];
-  $password = $_POST['password'];
+  $name = $_REQUEST['name'];
+  $id = $_REQUEST['id'];
+  $session = $_REQUEST['session'];
+  $department = $_REQUEST['department'];
+  $bloodgroup = $_REQUEST['bloodgroup'];
+  $phoneNo = $_REQUEST['phoneNo'];
+  $homeTown = $_REQUEST['homeTown'];
+  $birthday = $_REQUEST['birthday'];
+  $image = $_REQUEST['image'];
+  $email = $_REQUEST['email'];
+  $password = $_REQUEST['password'];
 
-    $register = new Register($name, $id, $session, $department, $bgroup, $phoneNo, $homeTown, $birthday, $image, $email, $password);
+   $register = new Register($name, $id, $session, $department, $bloodgroup, $phoneNo, $homeTown, $birthday, $image, $email, $password);
 
   $server = "127.0.0.1";
-  $dbname = "studentinfo";
-  $user = "root";
-  $pass = "";
-  $DBCon = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
+  $dbname = "studentInfo";
+  $user = "rakib";
+  $pass = "rakibul";
+ //$DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
 
 try {
-    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+    $DBCon = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
+
 } catch (Throwable $t){
     echo 'Cannot Connect to Database';
     die;
 }
 
-   $quary = 'insert into register (name, id, session, department, bgroup, phoneNo, homeTown, birthday, image, email, password)  values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
+    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+   // var_dump($DBCon->query("SELECT VERSION()"));
+   $query = "insert into register(name, id, session, department, bloodgroup, phoneNo, homeTown, birthday, image, email, password)  values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-    $statement = $DBCon->prepare($quary);
+    $statement = $DBCon->prepare($query);
     $statement->bindValue(1, $name);
     $statement->bindValue(2, $id);
     $statement->bindValue(3, $session);
     $statement->bindValue(4, $department);
-    $statement->bindValue(5, $bgroup);
+    $statement->bindValue(5, $bloodgroup);
     $statement->bindValue(6, $phoneNo);
     $statement->bindValue(7, $homeTown);
     $statement->bindValue(8, $birthday);
