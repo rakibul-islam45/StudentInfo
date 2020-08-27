@@ -79,7 +79,7 @@
 <body>
 <h1 style="text-align: center">Registration form</h1>
 <div class="container">
-    <form method="post" action="./action.php">
+    <form method="post" action="./action.php" enctype="multipart/form-data">
         <div class="row">
             <div class="col-25">
                 <label for="name">

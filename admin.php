@@ -18,17 +18,18 @@
     <link href="Bootstrap/css/heroic-features.css" rel="stylesheet">
 
 </head>
+<body>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Stduent Information</a>
+        <a class="navbar-brand" href="index">Stduent Information</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
+                    <a class="nav-link" href="index">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -55,8 +56,8 @@ $pass = "rakibul";
 //$DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
 
 try {
-    $DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
-    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 } catch (Throwable $t){
     echo 'Cannot Connect to Database';
     die;
@@ -64,6 +65,8 @@ try {
 
 
 ?>
+
+<?php //include_once 'database.php'   ?>
 
 <div class="container">
     <form>
@@ -82,22 +85,29 @@ try {
             </tr>
             <?php
             $query = 'select * from register';
-            $sth = $DBCon->prepare($query);
-            $sth->execute();
-            $data = $DBCon->query($query)->fetchAll(PDO::FETCH_ASSOC);
+            $statement = $pdo->prepare($query);
+            $statement->execute();
+            $data = $pdo->query($query)->fetchAll(PDO::FETCH_ASSOC);
             ?>
 
             <?php foreach ($data as $value): ?>
             <tr>
                 <td><?php echo $value['Name'] ?></td>
-                <td><?php echo $value['id'] ?></td>
+                <td><?php echo $value['Id'] ?></td>
                 <td><?php echo $value['Session'] ?></td>
                 <td><?php echo $value['Department'] ?></td>
                 <td><?php echo $value['bloodgroup'] ?></td>
                 <td><?php echo $value['PhoneNo'] ?></td>
                 <td><?php echo $value['HomeTown'] ?></td>
                 <td><?php echo $value['Email'] ?></td>
-                <td><?php echo $value['btn'] ?></td>
+                <td class="contact-delete">
+                    <form action='delete.php?Id="<?php echo $value['Id']; ?>"' method="post">
+                        <input type="hidden" name="Id" value="<?php echo $value['Id']; ?>">
+                        <input type="submit" name="submit" value="Delete">
+                    </form>
+                </td>
+<!--                echo '<td><input type="button" name="delete" value="delete"></td>';-->
+<!--                <td><input type="button" value="delete">--><?php //echo $value['id'] ?><!--</td>-->
             </tr>
 
             <?php endforeach; ?>
@@ -119,6 +129,6 @@ try {
 <script src="Bootstrap/vendor/jquery/jquery.min.js"></script>
 <script src="Bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-
+</body>
 
 </html>

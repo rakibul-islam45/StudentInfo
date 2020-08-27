@@ -3,11 +3,11 @@ $server = "127.0.0.1";
 $dbname = "studentInfo";
 $user = "rakib";
 $pass = "rakibul";
-//$DBCon = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+$pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
 
 try {
-    $DBCon = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
-    $DBCon->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
+    $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 } catch (Throwable $t){
     echo 'Cannot Connect to Database';
     die;
@@ -15,4 +15,4 @@ try {
 
 
 
-var_dump($DBCon->query("SELECT VERSION()"));
+//var_dump($pdo->query("SELECT VERSION()"));

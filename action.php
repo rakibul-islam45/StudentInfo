@@ -20,7 +20,13 @@
   $phoneNo = $_REQUEST['phoneNo'];
   $homeTown = $_REQUEST['homeTown'];
   $birthday = $_REQUEST['birthday'];
-  $image = $_REQUEST['image'];
+  $image = $_FILES['image']['tmp_name'];
+   // $file = addslashes(file_get_contents($_FILES["image"]["tmp_name"]));
+//$img = file_get_contents($image);
+//  $tmp_name = $image["tmp_name"];
+//  $name = str_replace(' ', '-', $name). '.png';
+//  $upload_dir = '.';
+//  move_uploaded_file($tmp_name,"$upload_dir/$name");
   $email = $_REQUEST['email'];
   $password = $_REQUEST['password'];
     include_once './Register.php';
@@ -60,7 +66,7 @@ try {
     $statement->bindValue(11, $password);
 
     if($statement->execute()) {
-        echo 'Inserted into DB';
+        header("location: login.php");
     } else {
         echo 'Could not insert';
     }

@@ -43,6 +43,59 @@
         </div>
     </div>
 </nav>
+<body>
+
+<form style="margin: 10px" action="search.php" method="post">
+    Search: <input type="text" name="search" /><br />
+    <input type="submit" value="Submit" />
+</form>
+
+<?php
+$server = "127.0.0.1";
+$dbname = "studentInfo";
+$user = "rakib";
+$pass = "rakibul";
+$pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+
+try {
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
+    $pdo->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+} catch (Throwable $t){
+    echo 'Cannot Connect to Database';
+    die;
+}
+
+?>
+
+
+
+<?php
+if (!empty($_REQUEST['search'])) {
+
+    $search =$_REQUEST['search'];
+
+    $query = "SELECT * FROM register WHERE Name LIKE '%" . $search . "%'";
+    $sth = $pdo->prepare($query);
+    $sth->execute();
+    $data = $pdo->query($query)->fetchAll(PDO::FETCH_ASSOC);
+
+    foreach ($data as $value):
+
+        echo '<form style="margin: 10px"> Name: ' . $value['Name'] .'</form>';
+        echo '<form style="margin: 10px"> ID: ' . $value['Id'] .'</form>';
+        echo '<form style="margin: 10px"> Session: ' . $value['Session'] .'</form>';
+        echo '<form style="margin: 10px"> Department: ' . $value['Department'] .'</form>';
+        echo '<form style="margin: 10px"> Blood Group: ' . $value['bloodgroup'] .'</form>';
+        echo '<form style="margin: 10px"> Phone No: ' . $value['PhoneNo'] .'</form>';
+        echo '<form style="margin: 10px"> Email: ' . $value['Email'] .'</form>';
+        echo '<form style="margin: 10px"> Home Town: ' . $value['HomeTown'] .'</form>';
+    endforeach;
+} else{
+    echo 'No data found';
+}
+?>
+
+
 
 
 <!-- Footer -->
@@ -57,6 +110,6 @@
 <script src="Bootstrap/vendor/jquery/jquery.min.js"></script>
 <script src="Bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-
+</body>
 
 </html>

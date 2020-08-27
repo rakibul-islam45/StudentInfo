@@ -23,11 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="File updated.">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index" beforeDir="false" afterPath="$PROJECT_DIR$/index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login" beforeDir="false" afterPath="$PROJECT_DIR$/login" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registerForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/registerForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1gKWCYHqOcSHamk5iYZ20c3nrLy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="duplicates.index" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -108,7 +115,11 @@
       <workItem from="1598258131699" duration="10270000" />
       <workItem from="1598317572088" duration="4278000" />
       <workItem from="1598345029836" duration="8969000" />
-      <workItem from="1598372313919" duration="13597000" />
+      <workItem from="1598372313919" duration="13647000" />
+      <workItem from="1598407271860" duration="404000" />
+      <workItem from="1598412434046" duration="6622000" />
+      <workItem from="1598459397259" duration="19076000" />
+      <workItem from="1598515462187" duration="21200000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1598261003387</created>
@@ -173,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598392281495</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="File updated.">
+      <created>1598392314330</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598392314330</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,22 +311,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="425" y="117" width="505" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1598261326629" />
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598382660854">
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598470219928">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598382660854" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598470219928" />
     <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog" timestamp="1598340146453">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1598340146453" />
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1598386818910">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1598434446785">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1598386818910" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598392291729">
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1598434446785" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598392316491">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598392291729" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598392316491" />
     <state x="512" y="304" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1597945612901">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
