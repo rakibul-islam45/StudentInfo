@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="rm .idea!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" show_user_defined_constants="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="8d252ffa-e554-475e-abbc-4350494fcf58" name="rServer" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="1gKWCYHqOcSHamk5iYZ20c3nrLy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.test.php">
+    <configuration name="StudentInfo" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.test.php" />
+        <item itemvalue="PHPUnit.StudentInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="417ce9d0-f755-4d45-9ffd-8393d8725090" name="Default Changelist" comment="" />
+      <created>1597863639236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597863639236</updated>
+      <workItem from="1597863641086" duration="116000" />
+      <workItem from="1597944427086" duration="7067000" />
+      <workItem from="1598028429263" duration="2075000" />
+      <workItem from="1598034087303" duration="2745000" />
+      <workItem from="1598037817537" duration="2978000" />
+      <workItem from="1598118061057" duration="3669000" />
+      <workItem from="1598175706432" duration="1176000" />
+      <workItem from="1598203454316" duration="4454000" />
+      <workItem from="1598210707964" duration="2591000" />
+      <workItem from="1598249970682" duration="491000" />
+      <workItem from="1598258131699" duration="10270000" />
+      <workItem from="1598317572088" duration="4278000" />
+      <workItem from="1598345029836" duration="8969000" />
+      <workItem from="1598372313919" duration="13647000" />
+      <workItem from="1598407271860" duration="404000" />
+      <workItem from="1598412434046" duration="6622000" />
+      <workItem from="1598459397259" duration="19076000" />
+      <workItem from="1598515462187" duration="25391000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1598261003387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598261003387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Register added">
+      <created>1598262074669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598262074669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Action updated">
+      <created>1598341091594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341091594</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Action updated">
+      <created>1598341736553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341736553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated">
+      <created>1598341784136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341784136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated">
+      <created>1598342277374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598342277374</updated>
+    </task>
+    <task id="LOCAL-00007" summary="File added.">
+      <created>1598342400659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598342400659</updated>
+    </task>
+    <task id="LOCAL-00008" summary="File updated.">
+      <created>1598372390297</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598372390297</updated>
+    </task>
+    <task id="LOCAL-00009" summary="File updated.">
+      <created>1598392281495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598392281495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="File updated.">
+      <created>1598392314330</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598392314330</updated>
+    </task>
+    <task id="LOCAL-00011" summary="File updated.">
+      <created>1598540661425</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598540661425</updated>
+    </task>
+    <task id="LOCAL-00012" summary="File added.">
+      <created>1598542273777</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598542273777</updated>
+    </task>
+    <task id="LOCAL-00013" summary="File updated.">
+      <created>1598543992633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598543992633</updated>
+    </task>
+    <task id="LOCAL-00014" summary="File updated.">
+      <created>1598544028515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598544028515</updated>
+    </task>
+    <task id="LOCAL-00015" summary=".gitignore file added.">
+      <created>1598544887774</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598544887774</updated>
+    </task>
+    <task id="LOCAL-00016" summary="rm .idea!">
+      <created>1598545091140</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598545091140</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Register added" />
+    <MESSAGE value="Registration form added" />
+    <MESSAGE value="Action updated" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="File added." />
+    <MESSAGE value="File updated." />
+    <MESSAGE value=".gitignore file added." />
+    <MESSAGE value="rm .idea!" />
+    <option name="LAST_COMMIT_MESSAGE" value="rm .idea!" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="58" width="824" height="691" key="#CLI_Interpreters" timestamp="1598038130791">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="261" y="58" width="824" height="691" key="#CLI_Interpreters/0.27.1366.741@0.27.1366.741" timestamp="1598038130791" />
+    <state x="273" y="62" width="800" height="684" key="#Deployment" timestamp="1598346163391">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="273" y="62" width="800" height="684" key="#Deployment/0.27.1366.741@0.27.1366.741" timestamp="1598346163391" />
+    <state x="276" y="59" width="804" height="684" key="#Options" timestamp="1598034996880">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="276" y="59" width="804" height="684" key="#Options/0.27.1366.741@0.27.1366.741" timestamp="1598034996880" />
+    <state x="186" y="27" width="710" height="741" key="#PHP" timestamp="1597951173507">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="186" y="27" width="710" height="741" key="#PHP/0.27.1366.741@0.27.1366.741" timestamp="1597951173507" />
+    <state x="0" y="250" width="1356" height="301" key="#SQL_Dialects" timestamp="1598355929751">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="250" width="1356" height="301" key="#SQL_Dialects/0.27.1366.741@0.27.1366.741" timestamp="1598355929751" />
+    <state x="266" y="55" width="824" height="691" key="#Servers" timestamp="1597945703208">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="55" width="824" height="691" key="#Servers/0.27.1366.741@0.27.1366.741" timestamp="1597945703208" />
+    <state x="266" y="55" width="824" height="691" key="#Test_Frameworks" timestamp="1597949884904">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="55" width="824" height="691" key="#Test_Frameworks/0.27.1366.741@0.27.1366.741" timestamp="1597949884904" />
+    <state x="270" y="33" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598356616085">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="270" y="33" width="998" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1598356616085" />
+    <state x="394" y="199" width="593" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598382321309">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="394" y="199" width="593" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1598382321309" />
+    <state x="362" y="222" width="632" height="358" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1597947467739">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="362" y="222" width="632" height="358" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.27.1366.741@0.27.1366.741" timestamp="1597947467739" />
+    <state x="100" y="127" width="1166" height="541" key="DirDiffDialog" timestamp="1598035018205">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="DirDiffDialog/0.27.1366.741@0.27.1366.741" timestamp="1598035018205" />
+    <state x="456" y="162" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598356187029">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="456" y="162" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1598356187029" />
+    <state x="530" y="297" width="306" height="207" key="Github.ShareDialog" timestamp="1598258942910">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="530" y="297" width="306" height="207" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1598258942910" />
+    <state x="514" y="50" width="463" height="633" key="Github.UntrackedFilesDialog" timestamp="1598258965119">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="514" y="50" width="463" height="633" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1598258965119" />
+    <state width="660" height="172" key="GridCell.Tab.0.bottom" timestamp="1598133383374">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="660" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1598133383374" />
+    <state width="660" height="172" key="GridCell.Tab.0.center" timestamp="1598133383373">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="660" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1598133383373" />
+    <state width="660" height="172" key="GridCell.Tab.0.left" timestamp="1598133383372">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="660" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1598133383372" />
+    <state width="660" height="172" key="GridCell.Tab.0.right" timestamp="1598133383373">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="660" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1598133383373" />
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1597951778153">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1597951778153" />
+    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1597951778152">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1597951778152" />
+    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1597951778152">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1597951778152" />
+    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1597951778153">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1597951778153" />
+    <state x="425" y="117" width="505" height="568" key="NewPhpClassDialog" timestamp="1598261326629">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="425" y="117" width="505" height="568" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1598261326629" />
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1598470219928">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="478" y="323" width="399" height="156" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1598470219928" />
+    <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog" timestamp="1598544987921">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="428" y="100" width="500" height="602" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1598544987921" />
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1598434446785">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1598434446785" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598545096735">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1598545096735" />
+    <state x="512" y="304" width="492" height="207" key="WebDeployment.AddServerDialog.v.1" timestamp="1597945612901">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="512" y="304" width="492" height="207" key="WebDeployment.AddServerDialog.v.1/0.27.1366.741@0.27.1366.741" timestamp="1597945612901" />
+    <state x="584" y="275" width="187" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598038874725">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="584" y="275" width="187" height="251" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.27.1366.741@0.27.1366.741" timestamp="1598038874725" />
+    <state x="534" y="138" width="287" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598356262595">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="534" y="138" width="287" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1366.741@0.27.1366.741" timestamp="1598356262595" />
+    <state x="100" y="127" width="1166" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598341761197">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1598341761197" />
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598259050245">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="464" y="312" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1598259050245" />
+    <state x="0" y="27" width="1356" height="741" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1597947058788">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="1356" height="741" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.27.1366.741@0.27.1366.741" timestamp="1597947058788" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1597946961217">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1597946961217" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1597948397725">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1597948397725" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/search.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
